@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: black;
+  font-family: code;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+header div button {
+  padding: 10px 20px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.div2 .guess {
+  margin-top: 50px;
+  background: white;
+  color: black;
+  width: 80px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 2.5rem;
+}
+
+.main {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main .enter_number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.main .enter_number input {
+  width: 8rem;
+  height: 3rem;
+  text-align: center;
+  outline: none;
+  font-size: 1.5rem;
+  font-family: "Press Start 2P", cursive;
+}
+
+.main .enter_number button {
+  padding: 1rem;
+  font-family: "Press Start 2P", cursive;
+}
+
+.result {
+  display: flex;
+  /* justify-content: center; */
+  align-items: start;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+
+.cong {
+  padding-bottom: 5rem;
+}
+.urunish,
+.maxScore {
+  padding: 0.5rem 0;
+}
